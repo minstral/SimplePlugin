@@ -1,0 +1,12 @@
+# Do not include library, build and automatically generated files
+
+Build/*
+
+FMWrapper*
+Headers/*
+
+SimplePlugin.vcxproj.user
+SimplePlugin.sdf
+SimplePlugin.suo
+
+ipch/*

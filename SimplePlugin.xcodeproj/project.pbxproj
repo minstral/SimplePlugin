@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D783188120C226F00C767CA /* SimplePlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D783187120C226F00C767CA /* SimplePlugin.cpp */; };
+		C7DEDF1707E10BF4002283F3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDF1607E10BF4002283F3 /* CoreServices.framework */; };
+		C7DEDF1907E10BF4002283F3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDF1807E10BF4002283F3 /* Carbon.framework */; };
+		C7DEDF3807E10CBC002283F3 /* FMWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DEDF3707E10CBC002283F3 /* FMWrapper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D783187120C226F00C767CA /* SimplePlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplePlugin.cpp; sourceTree = "<group>"; };
+		6F48806107F8A0DB001869FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77AF38407E11A7C00897241 /* SimplePlugin.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePlugin.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DEDF1607E10BF4002283F3 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		C7DEDF1807E10BF4002283F3 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		C7DEDF3707E10CBC002283F3 /* FMWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMWrapper.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DEDEF107E10BF3002283F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DEDF1707E10BF4002283F3 /* CoreServices.framework in Frameworks */,
+				C7DEDF1907E10BF4002283F3 /* Carbon.framework in Frameworks */,
+				C7DEDF3807E10CBC002283F3 /* FMWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DEDEE707E10BF3002283F3 = {
+			isa = PBXGroup;
+			children = (
+				C7DEDEF607E10BF3002283F3 /* Sources */,
+				C7DEDEFC07E10BF3002283F3 /* Resources */,
+				C7DEDF1507E10BF4002283F3 /* Frameworks */,
+				C77AF38407E11A7C00897241 /* SimplePlugin.fmplugin */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DEDEF607E10BF3002283F3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4D783187120C226F00C767CA /* SimplePlugin.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C7DEDEFC07E10BF3002283F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F48806107F8A0DB001869FF /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7DEDF1507E10BF4002283F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7DEDF1607E10BF4002283F3 /* CoreServices.framework */,
+				C7DEDF1807E10BF4002283F3 /* Carbon.framework */,
+				C7DEDF3707E10CBC002283F3 /* FMWrapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C7DEDEEE07E10BF3002283F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7DEDEF307E10BF3002283F3 /* SimplePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD50583097C3165009399BF /* Build configuration list for PBXNativeTarget "SimplePlugin" */;
+			buildPhases = (
+				C7DEDEEE07E10BF3002283F3 /* Headers */,
+				C7DEDEEF07E10BF3002283F3 /* Sources */,
+				C7DEDEF007E10BF3002283F3 /* Resources */,
+				C7DEDEF107E10BF3002283F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePlugin;
+			productName = MacExample;
+			productReference = C77AF38407E11A7C00897241 /* SimplePlugin.fmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DEDEEB07E10BF3002283F3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6FD50587097C3165009399BF /* Build configuration list for PBXProject "SimplePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C7DEDEE707E10BF3002283F3;
+			productRefGroup = C7DEDEE707E10BF3002283F3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DEDEF307E10BF3002283F3 /* SimplePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DEDEF007E10BF3002283F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DEDEEF07E10BF3002283F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D783188120C226F00C767CA /* SimplePlugin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FD50584097C3165009399BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		6FD50585097C3165009399BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6FD50588097C3165009399BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(EFFECTIVE_PLATFORM_NAME)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"PLUGIN_NAME=\\\"$PRODUCT_NAME\\\"\"";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_GLOBAL_CONSTRUCTORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OBJROOT = ./Build/;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = $PROJECT_NAME;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.5;
+				SEPARATE_STRIP = YES;
+				SYMROOT = "~/Library/Application Support/FileMaker/Extensions";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Release;
+		};
+		6FD50589097C3165009399BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(EFFECTIVE_PLATFORM_NAME)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"PLUGIN_NAME=\\\"$PRODUCT_NAME\\\"\"";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_GLOBAL_CONSTRUCTORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OBJROOT = ./Build/;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = $PROJECT_NAME;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.5;
+				SEPARATE_STRIP = NO;
+				SYMROOT = "~/Library/Application Support/FileMaker/Extensions";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD50583097C3165009399BF /* Build configuration list for PBXNativeTarget "SimplePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD50584097C3165009399BF /* Release */,
+				6FD50585097C3165009399BF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD50587097C3165009399BF /* Build configuration list for PBXProject "SimplePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD50588097C3165009399BF /* Release */,
+				6FD50589097C3165009399BF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DEDEEB07E10BF3002283F3 /* Project object */;
+}

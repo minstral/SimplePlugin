@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	4D36AD2F120E30E3004E91CC /* iostream */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = iostream;
+		path = "/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.2.1/iostream";
+		sourceTree = "<absolute>";
+	};
+	4D36ADBB120E40E2004E91CC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6F48806107F8A0DB001869FF /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/mark/Desktop/ExplodedText/SimplePlugin/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	4D4B562F120BBF01001F6076 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4D4B5630120BBF01001F6076 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4D783187120C226F00C767CA /* SimplePlugin.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 6305}}";
+			sepNavSelRange = "{9373, 0}";
+			sepNavVisRange = "{0, 1305}";
+		};
+	};
+	4DC477AD1267BA9900BEC2B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D783187120C226F00C767CA /* SimplePlugin.cpp */;
+		name = "SimplePlugin.cpp: 434";
+		rLen = 11;
+		rLoc = 9951;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 9784;
+	};
+	4DC477AE1267BA9900BEC2B1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D783187120C226F00C767CA /* SimplePlugin.cpp */;
+		name = "SimplePlugin.cpp: 401";
+		rLen = 0;
+		rLoc = 9373;
+		rType = 0;
+		vrLen = 1305;
+		vrLoc = 0;
+	};
+	4DD3AE5C120BD838009245F2 /* FileMaker Pro 11 Advanced */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 4DD3AE5D120BD838009245F2 /* FileMaker Pro Advanced.app */;
+		libgmallocEnabled = 0;
+		name = "FileMaker Pro 11 Advanced";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	4DD3AE5D120BD838009245F2 /* FileMaker Pro Advanced.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "FileMaker Pro Advanced.app";
+		path = "/Applications/FileMaker Pro 11 Advanced/FileMaker Pro Advanced.app";
+		sourceTree = "<absolute>";
+	};
+	4DD3AFA0120BE6D3009245F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DD3AFA1120BE6D3009245F2 /* MacTypes.h */;
+		name = "MacTypes.h: 418";
+		rLen = 49;
+		rLoc = 17141;
+		rType = 0;
+		vrLen = 2410;
+		vrLoc = 16169;
+	};
+	4DD3AFA1120BE6D3009245F2 /* MacTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MacTypes.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers/MacTypes.h;
+		sourceTree = "<absolute>";
+	};
+	4DD3AFA2120BE6D3009245F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DD3AFA3120BE6D3009245F2 /* CFString.h */;
+		name = "CFString.h: 248";
+		rLen = 7;
+		rLoc = 12570;
+		rType = 0;
+		vrLen = 2295;
+		vrLoc = 11451;
+	};
+	4DD3AFA3120BE6D3009245F2 /* CFString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CFString.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Headers/CFString.h;
+		sourceTree = "<absolute>";
+	};
+	4DD3B03A120BF492009245F2 /* FMPlugInExample.cpp:108 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C7DEDEF707E10BF3002283F3 /* FMPlugInExample.cpp */;
+		functionName = "RegisterFunction ( fmx::TextAutoPtr signature, fmx::ExtPluginType funcPtr )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 108;
+		modificationTime = 302923409.435885;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	4DD87190124583A2002D210E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D36AD2F120E30E3004E91CC /* iostream */;
+		name = "iostream: 76";
+		rLen = 0;
+		rLoc = 2873;
+		rType = 0;
+		vrLen = 1363;
+		vrLoc = 1595;
+	};
+	6F48806107F8A0DB001869FF /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{644, 23}, {1044, 1049}}";
+		};
+	};
+	C7DEDEEB07E10BF3002283F3 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4DD3AE5C120BD838009245F2 /* FileMaker Pro 11 Advanced */;
+		activeTarget = C7DEDEF307E10BF3002283F3 /* SimplePlugin */;
+		addToTargets = (
+			C7DEDEF307E10BF3002283F3 /* SimplePlugin */,
+		);
+		breakpoints = (
+			4DD3B03A120BF492009245F2 /* FMPlugInExample.cpp:108 */,
+		);
+		codeSenseManager = 4D4B5630120BBF01001F6076 /* Code sense */;
+		executables = (
+			4DD3AE5C120BD838009245F2 /* FileMaker Pro 11 Advanced */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					491,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					536,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					496,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 308787195;
+			PBXWorkspaceStateSaveDate = 308787195;
+		};
+		perUserProjectItems = {
+			4D36ADBB120E40E2004E91CC /* PlistBookmark */ = 4D36ADBB120E40E2004E91CC /* PlistBookmark */;
+			4DC477AD1267BA9900BEC2B1 /* PBXTextBookmark */ = 4DC477AD1267BA9900BEC2B1 /* PBXTextBookmark */;
+			4DC477AE1267BA9900BEC2B1 /* PBXTextBookmark */ = 4DC477AE1267BA9900BEC2B1 /* PBXTextBookmark */;
+			4DD3AFA0120BE6D3009245F2 /* PBXTextBookmark */ = 4DD3AFA0120BE6D3009245F2 /* PBXTextBookmark */;
+			4DD3AFA2120BE6D3009245F2 /* PBXTextBookmark */ = 4DD3AFA2120BE6D3009245F2 /* PBXTextBookmark */;
+			4DD87190124583A2002D210E /* PBXTextBookmark */ = 4DD87190124583A2002D210E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4D4B562F120BBF01001F6076 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C7DEDEF307E10BF3002283F3 /* SimplePlugin */ = {
+		activeExec = 0;
+	};
+	C7DEDEF707E10BF3002283F3 /* FMPlugInExample.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = FMPlugInExample.cpp;
+		path = /Users/mark/Desktop/ExplodedText/SimpleFileMakerPlugin/Example/FMPlugInExample.cpp;
+		sourceTree = "<absolute>";
+	};
+}

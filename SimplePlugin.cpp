@@ -3,13 +3,16 @@
  SimplePlugin.cpp
  SimplePlugin
 
- Copyright 2010 Mark Banks. All rights reserved.
+ Copyright 2010-2013 Mark Banks. All rights reserved.
  License: see the accompyanying file License.txt
  
  http://banks.id.au/filemaker/plugins/simpleplugin/
 
  */
 
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wall"
 
 #include "FMWrapper/FMXBinaryData.h"
 #include "FMWrapper/FMXCalcEngine.h"
@@ -21,6 +24,9 @@
 #include "FMWrapper/FMXText.h"
 #include "FMWrapper/FMXTextStyle.h"
 #include "FMWrapper/FMXTypes.h"
+
+#pragma clang diagnostic pop
+
 
 #include <string>
 #include <iostream>

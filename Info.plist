@@ -4,23 +4,23 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleGetInfoString</key>
-	<string>${PRODUCT_NAME} version 1.0, Copyright 2010 by Mark Banks.  All rights reserved.</string>
+	<string>${PRODUCT_NAME} version 1.0, Copyright 2010-2013 by Mark Banks.  All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>au.id.banks.simplefilemakerplugin.${PRODUCT_NAME}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleExecutable</key>
-	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>FMXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>${PRODUCT_NAME} version 1.0</string>
+	<string>${PRODUCT_NAME} version 1.0.1</string>
 	<key>CFBundleSignature</key>
 	<string>Smpl</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 </dict>
 </plist>

@@ -110,7 +110,11 @@
 			isa = PBXProject;
 			buildConfigurationList = 6FD50587097C3165009399BF /* Build configuration list for PBXProject "SimplePlugin" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = C7DEDEE707E10BF3002283F3;
 			productRefGroup = C7DEDEE707E10BF3002283F3;
 			projectDirPath = "";
@@ -146,12 +150,16 @@
 		6FD50584097C3165009399BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		6FD50585097C3165009399BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};

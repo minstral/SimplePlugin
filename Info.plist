@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleGetInfoString</key>
-	<string>${PRODUCT_NAME} version 1.0, Copyright 2010-2013 by Mark Banks.  All rights reserved.</string>
+	<string>${PRODUCT_NAME} version 1.0, Copyright 2010-2017 by Mark Banks.  All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>au.id.banks.simplefilemakerplugin.${PRODUCT_NAME}</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,10 +17,10 @@
 	<key>CFBundlePackageType</key>
 	<string>FMXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>${PRODUCT_NAME} version 1.0.1</string>
+	<string>${PRODUCT_NAME} version 1.0.2</string>
 	<key>CFBundleSignature</key>
 	<string>Smpl</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 </dict>
 </plist>
